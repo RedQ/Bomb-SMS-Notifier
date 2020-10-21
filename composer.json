@@ -1,0 +1,13 @@
+{
+	"name": "sms-notifier",
+	"description": "SMS Notifier",
+	"autoload": {
+		"classmap": [
+			"Admin"
+		]
+	},
+	"require": {
+		"nexmo/client": "^2.0",
+		"twilio/sdk": "^6.10"
+	}
+}

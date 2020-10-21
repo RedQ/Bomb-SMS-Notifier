@@ -1,0 +1,251 @@
+.rq-sms-notifier-settings-wrap {
+  max-width: calc(100% - 94px);
+  width: 100%;
+  margin: 20px 16px 16px;
+  padding: 40px 30px 35px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
+.rq-sms-notifier-settings-wrap .la-page-title {
+  margin: 0 0 40px;
+  color: #1a202c;
+  font-size: 24px;
+}
+
+.rq-sms-notifier-settings-wrap.rq-quick-sms-area .la-input-group .la-input-wrapper {
+  align-items: flex-start;
+}
+
+.rq-sms-notifier-settings-wrap .la-input-title {
+  color: #4a5568;
+  font-size: 14px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
+  max-width: 300px;
+  margin-top: -26px;
+}
+
+.rq-sms-notifier-settings-wrap.rq-quick-sms-area .la-input-title {
+  margin-top: 1px;  
+}
+
+.rq-sms-notifier-settings-wrap .description {
+  color: #718096;
+  display: block;
+  margin-top: 6px;
+}
+
+.rq-sms-notifier-settings-wrap input[type="text"], .rq-sms-notifier-settings-wrap input[type="number"], .rq-sms-notifier-settings-wrap input[type="email"], .rq-sms-notifier-settings-wrap input[type="password"], .rq-sms-notifier-settings-wrap textarea, .rq-sms-notifier-settings-wrap select {
+  width: 100%;
+  padding: 0 12px;
+  min-height: 44px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  border-color: #e2e8f0;
+  -webkit-transition: -webkit-box-shadow 0.15s ease;
+  transition: -webkit-box-shadow 0.15s ease;
+  -o-transition: box-shadow 0.15s ease;
+  transition: box-shadow 0.15s ease;
+  transition: box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.rq-sms-notifier-settings-wrap select {
+  width: 220px;
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox'] {
+  display: none;
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox'] + label {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  color: #718096;
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox'] + label::before {
+  content: '';
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 38px;
+  margin-bottom: 6px;
+  border-radius: 40px;
+  border: 1px solid #e2e8f0;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox'] + label::after {
+  content: '';
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox']:checked + label::before {
+  border-color: #4299e1;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(66, 153, 225, .5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(66, 153, 225, .5);
+}
+
+.rq-sms-notifier-settings-wrap input[type='checkbox']:checked + label::after {
+  left: 35px;
+  background-color: #4299e1;
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.rq-sms-notifier-settings-wrap input[type="text"]:focus, .rq-sms-notifier-settings-wrap input[type="number"]:focus, .rq-sms-notifier-settings-wrap input[type="email"]:focus, .rq-sms-notifier-settings-wrap input[type="password"]:focus, .rq-sms-notifier-settings-wrap textarea:focus, .rq-sms-notifier-settings-wrap select:focus {
+  outline: 0;
+  color: #1a202c;
+  border-color: #e2e8f0;
+  -webkit-box-shadow: 0 0 0 2px rgba(66, 153, 225, .5);
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, .5);
+}
+
+.rq-sms-notifier-settings-wrap textarea {
+  min-height: 120px;
+  padding-top: 10px;
+}
+
+.rq-sms-notifier-settings-wrap .submit {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 30px !important;
+  border-top: 2px solid #edf2f7 !important;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 783px) {
+  .rq-sms-notifier-settings-wrap .submit {
+    margin-left: 332px;
+    margin-top: 27px;
+  }
+}
+
+.rq-sms-notifier-settings-wrap input[type="submit"],
+.rq-sms-notifier-settings-wrap button[type="submit"] {
+  background: #4299e1;
+  border-color: #4299e1;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 15px;
+  border-radius: 3px;
+  min-height: 46px;
+  min-width: 120px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.rq-sms-notifier-settings-wrap .submit input[type="submit"]:hover, 
+.rq-sms-notifier-settings-wrap .submit input[type="submit"]:focus,
+.rq-sms-notifier-settings-wrap .submit button[type="submit"]:hover, 
+.rq-sms-notifier-settings-wrap .submit button[type="submit"]:focus {
+  outline: 0;
+  background: #3182ce !important;
+  border-color: #3182ce !important;
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* loader btn */
+.rq-sms-mini-loader {
+  width: 70px;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.rq-sms-btn.has-spinner .rq-sms-mini-loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rq-sms-btn .rq-sms-mini-loader .rq-sms-btn-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.rq-sms-btn.has-spinner .rq-sms-btn-text {
+  display: none;
+}
+
+.rq-sms-btn .rq-sms-mini-loader span {
+  width: 8px;
+  height: 8px;
+  margin: 0 2px;
+  border-radius: 100%;
+  background-color: #fff;
+  -webkit-animation: pulse 1s infinite ease-in-out both;
+  animation: pulse 1s infinite ease-in-out both;
+}
+
+.rq-sms-btn .rq-sms-mini-loader span.dot2 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.rq-sms-btn .rq-sms-mini-loader span.dot3 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@-webkit-keyframes pulse {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
