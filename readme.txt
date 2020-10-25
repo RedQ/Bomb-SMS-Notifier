@@ -26,6 +26,9 @@ Engage with your WooCommerce store customer with modern approach. Enhance your u
 We are using this plugin in production here <a href="https://cartsy.redq.io/">Cartsy - SuperFast WordPress WooCommerce Theme</a>.
 You can check our <a href="https://redq.io/">Portfolio</a> from here.
 
+= CONTRIBUTING AND REPORTING BUGS =
+<a href="https://cartsy.redq.io/">Bomb - SMS Notifier</a> is being developed on GitHub. If you’re interested in contributing to the plugin, please look at <a href="https://github.com/RedQ/Bomb-SMS-Notifier">Github page</a>.
+
 == Installation ==
 
 = Minimum Requirements =
@@ -43,9 +46,6 @@ In the search field type <a href="https://cartsy.redq.io/">Bomb - SMS Notifier</
 = Manual installation =
 
 The manual installation method involves downloading our plugin and upload it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
-
-= CONTRIBUTING AND REPORTING BUGS =
-<a href="https://cartsy.redq.io/">Bomb - SMS Notifier</a> is being developed on GitHub. If you’re interested in contributing to the plugin, please look at <a href="https://github.com/RedQ/Bomb-SMS-Notifier">Github page</a>.
 
 == Screenshots ==
 
