@@ -9,6 +9,40 @@
   background-color: #ffffff;
 }
 
+.rq-sms-notifier-settings-wrap .la-input-group {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .rq-sms-notifier-settings-wrap .la-input-group {
+    margin-top: 56px;
+    margin-bottom: 0;
+  }
+}
+
+.rq-sms-notifier-settings-wrap .la-input-group .la-input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .rq-sms-notifier-settings-wrap .la-input-group .la-input-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .rq-sms-notifier-settings-wrap .la-page-title {
   margin: 0 0 40px;
   color: #1a202c;
@@ -16,7 +50,9 @@
 }
 
 .rq-sms-notifier-settings-wrap.rq-quick-sms-area .la-input-group .la-input-wrapper {
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .rq-sms-notifier-settings-wrap .la-input-title {
@@ -26,11 +62,42 @@
       -ms-flex: 0 0 300px;
           flex: 0 0 300px;
   max-width: 300px;
+  margin-right: 32px;
   margin-top: -26px;
 }
 
 .rq-sms-notifier-settings-wrap.rq-quick-sms-area .la-input-title {
   margin-top: 1px;  
+}
+
+.rq-sms-notifier-settings-wrap .la-input-field {
+  min-width: auto;
+  max-width: 580px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .rq-sms-notifier-settings-wrap .la-input-title {
+    -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+    max-width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 8px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .rq-sms-notifier-settings-wrap .la-input-title {
+    -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  text-align: left;
+  }
 }
 
 .rq-sms-notifier-settings-wrap .description {
@@ -140,7 +207,13 @@
   margin-top: 20px;
 }
 
-@media screen and (min-width: 783px) {
+@media screen and (min-width: 768px) {
+  .rq-sms-notifier-settings-wrap .submit {
+    margin-left: 232px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
   .rq-sms-notifier-settings-wrap .submit {
     margin-left: 332px;
     margin-top: 27px;
